@@ -128,15 +128,32 @@ mobile device
     max-width: 500px;
   }
   /* banner */
+  .inner_banner .banner_content h2 {
+    flex-direction: column;
+    row-gap: 10px;
+    height: 100px;
+    justify-content: center;
+  }
   .inner_banner .banner_content h1 {
-    font-size: 48px;
+    font-size: 40px;
+    max-width: 400px;
+  }
+  .inner_banner .banner_content p {
+    max-width: 300px;
   }
   .inner_banner .banner_img img {
-    max-width: 350px;
+    max-width: 280px;
+  }
+  .inner_banner .banner_content .btn_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
   .inner_banner .banner_content .try_btn {
     margin: 0 10px 0 0;
   }
+
   /* trust */
   .inner_trust .trust_box div {
     flex-basis: 100%;
@@ -144,7 +161,7 @@ mobile device
   }
   /* app feature area style */
   .inner_app_feature img {
-    max-width: 350px;
+    max-width: 280px;
   }
   /* smart */
   .inner_smart .smart_title {
@@ -171,7 +188,7 @@ mobile device
     flex-basis: 100%;
   }
   .inner_smart .smart_img img {
-    max-width: 350px;
+    max-width: 280px;
     margin-bottom: 50px;
   }
   .inner_smart .smart_img .smart_img_details {
@@ -190,7 +207,7 @@ mobile device
   }
   /* ultimate */
   .inner_ultimate .ultimate_img img {
-    max-width: 350px;
+    max-width: 280px;
   }
   .inner_ultimate .ultimate_content .ultimate_content_title h2 {
     font-size: 28px;
@@ -205,7 +222,7 @@ mobile device
   }
   .inner_pricing .pricing_card .pricing_card_box {
     margin: 35px auto 0 auto;
-    width: 315px;
+    width: 300px;
   }
   /* meet */
   .inner_meet .meet_content h2 {
